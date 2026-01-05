@@ -1,0 +1,33 @@
+### API 1
+
+GET http://localhost:3000/players
+
+### API 2
+
+POST http://localhost:3000/players
+Content-Type: application/json
+
+{
+  "playerName": "Suraj",
+  "jerseyNumber": 21,
+  "role": "Bowler"
+}
+
+### API 3
+
+GET http://localhost:3000/players/2
+
+### API 4
+
+PUT http://localhost:3000/players/2
+Content-Type: application/json
+
+{
+  "playerName": "suraj",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+### API 5
+
+DELETE http://localhost:3000/players/1
